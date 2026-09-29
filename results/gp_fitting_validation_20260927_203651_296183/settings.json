@@ -1,0 +1,85 @@
+{
+  "experiment": "gp_fitting_validation",
+  "seeds": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49
+  ],
+  "total_evaluations": 100,
+  "warmup_evaluations": 64,
+  "acquisition": "logei",
+  "num_restarts": 40,
+  "raw_samples": 1024,
+  "fit_methods": [
+    "mll",
+    "adamw"
+  ],
+  "adamw_steps": 50,
+  "adamw_lr": 0.1,
+  "ensemble_temperature": 2.0,
+  "parameter_names": [
+    "source_range_km",
+    "source_depth_m",
+    "array_tilt_deg",
+    "water_depth_m",
+    "sediment_thickness_m",
+    "sediment_top_speed_mps",
+    "sediment_speed_change_mps"
+  ],
+  "lower_bounds": [
+    0.8,
+    60.0,
+    -3.0,
+    212.0,
+    15.0,
+    1560.0,
+    10.0
+  ],
+  "upper_bounds": [
+    1.3,
+    80.0,
+    3.0,
+    222.0,
+    25.0,
+    1580.0,
+    30.0
+  ],
+  "truth": [
+    1.07,
+    71.1,
+    2.0,
+    217.0,
+    23.0,
+    1572.3,
+    20.7
+  ],
+  "versions": {
+    "torch": "2.14.0",
+    "botorch": "0.18.1",
+    "gpytorch": "1.15.2",
+    "numpy": "2.5.3",
+    "tritonoa": "1.1.0"
+  },
+  "code_sha256": {
+    "config.py": "c9f816c74b2861ade0d1fe6c7ce63b08f5ff8bec409f25b547a40dc68814083b",
+    "optimization.py": "ed58d267b4ba5e7d0092e786c680a832577fb3b625cde38d1eeab9bada7552f0",
+    "main.py": "6e7a4325abd3dfc8725ff27bbbcd19ed50b3a325f590e0f7d46367d6e5f8b789"
+  }
+}

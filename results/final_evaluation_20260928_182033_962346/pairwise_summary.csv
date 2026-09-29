@@ -1,0 +1,11 @@
+method_a,method_b,a_wins,b_wins,ties,median_log10_ratio_a_over_b
+sobol,rbf_logei,0,50,0,1.844180963733749
+sobol,matern15_logei,0,50,0,2.23709736600055
+sobol,matern25_logei,0,50,0,1.9187258669697238
+sobol,ensemble_uniform_logei,0,50,0,2.1646218240425057
+rbf_logei,matern15_logei,11,39,0,0.2303809638459331
+rbf_logei,matern25_logei,17,33,0,0.11444957874141859
+rbf_logei,ensemble_uniform_logei,18,32,0,0.1710360825096452
+matern15_logei,matern25_logei,31,19,0,-0.11930295695367366
+matern15_logei,ensemble_uniform_logei,29,21,0,-0.18417220493926756
+matern25_logei,ensemble_uniform_logei,21,29,0,0.1093040794467739

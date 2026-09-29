@@ -1,0 +1,105 @@
+{
+  "experiment": "ensemble evidence ablation",
+  "total_evaluations": 100,
+  "initial_evaluations": 64,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "kernels": [
+    "rbf",
+    "matern15",
+    "matern25"
+  ],
+  "acquisition": "UCB: mean + sqrt(beta) * latent_std",
+  "beta": 1.0,
+  "num_restarts": 40,
+  "raw_samples": 1024,
+  "weight_floor": 0.01,
+  "weighting_variants": {
+    "uniform": {
+      "method": "uniform"
+    },
+    "tempered_025_shrink": {
+      "method": "predictive",
+      "eta": 0.25,
+      "shrinkage": 0.05
+    },
+    "evidence": {
+      "method": "evidence",
+      "temperature": 1.0
+    },
+    "evidence_tempered": {
+      "method": "evidence",
+      "temperature": 2.0
+    },
+    "rolling": {
+      "method": "rolling",
+      "window": 5,
+      "temperature": 1.0
+    }
+  },
+  "frequencies": [
+    148.0,
+    235.0,
+    388.0
+  ],
+  "parameter_names": [
+    "source_range_km",
+    "source_depth_m",
+    "array_tilt_deg",
+    "water_depth_m",
+    "sediment_thickness_m",
+    "sediment_top_speed_mps",
+    "sediment_speed_change_mps"
+  ],
+  "lower_bounds": [
+    0.8,
+    60.0,
+    -3.0,
+    212.0,
+    15.0,
+    1560.0,
+    10.0
+  ],
+  "upper_bounds": [
+    1.3,
+    80.0,
+    3.0,
+    222.0,
+    25.0,
+    1580.0,
+    30.0
+  ],
+  "truth": [
+    1.07,
+    71.1,
+    2.0,
+    217.0,
+    23.0,
+    1572.3,
+    20.7
+  ],
+  "versions": {
+    "torch": "2.14.0",
+    "botorch": "0.18.1",
+    "gpytorch": "1.15.2",
+    "numpy": "2.5.3",
+    "tritonoa": "1.1.0"
+  },
+  "code_sha256": {
+    "config.py": "a4a547335661a636cae9463adf54bf8d713a2dc7ff24a17931e69e7c601d5342",
+    "acoustics.py": "31dba506f6ea043937ca5f2c7585e4fc4b2f736f3ceb9e018184247146b3140b",
+    "objective.py": "ea2f492db71206024949d0910505dcd45c25ed1a5bbcf5a9179006ac547eb573",
+    "optimization.py": "21fee21b118ffb8d336af38d7e4bb0b6c0ce32be8000bf742b504269c1cfdabf",
+    "main.py": "ceda496abf817f82c89cae9a29fc2375489dcd100b5ad27c052c0e7bb510d1aa"
+  }
+}

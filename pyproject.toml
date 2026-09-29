@@ -1,0 +1,32 @@
+[project]
+name = "bayesian-optimization"
+version = "0.1.0"
+description = "Bayesian optimization for SWellEx-96 geoacoustic inversion with fixed and ensemble Gaussian process kernels"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "botorch>=0.18.1",
+    "gpytorch>=1.15.2",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "scipy>=1.18.1",
+    "torch>=2.14.0",
+    "tritonoa",
+]
+
+[project.scripts]
+bayesian-optimization = "bayesian_optimization.main:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+package = true
+
+[tool.uv.build-backend]
+module-name = "bayesian_optimization"
+module-root = "src"
+
+[tool.uv.sources]
+tritonoa = { git = "https://github.com/NeptuneProjects/TritonOA.git" }

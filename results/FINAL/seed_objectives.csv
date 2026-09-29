@@ -1,0 +1,251 @@
+seed,method,method_label,final_objective
+90,sobol,Sobol,0.02436515
+90,rbf_logei,RBF + LogEI,0.007381351
+90,matern15_logei,Matérn 3/2 + LogEI,0.0008840907
+90,matern25_logei,Matérn 5/2 + LogEI,0.003419558
+90,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0006540437
+91,sobol,Sobol,0.109931
+91,rbf_logei,RBF + LogEI,0.0001247744
+91,matern15_logei,Matérn 3/2 + LogEI,0.0001229533
+91,matern25_logei,Matérn 5/2 + LogEI,4.328049e-05
+91,ensemble_uniform_logei,Uniform ensemble + LogEI,6.17487e-05
+92,sobol,Sobol,0.0694342
+92,rbf_logei,RBF + LogEI,6.465193e-05
+92,matern15_logei,Matérn 3/2 + LogEI,0.0001008848
+92,matern25_logei,Matérn 5/2 + LogEI,0.0002123815
+92,ensemble_uniform_logei,Uniform ensemble + LogEI,0.001081774
+93,sobol,Sobol,0.02103252
+93,rbf_logei,RBF + LogEI,0.001316817
+93,matern15_logei,Matérn 3/2 + LogEI,0.001104084
+93,matern25_logei,Matérn 5/2 + LogEI,0.001408865
+93,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0001000566
+94,sobol,Sobol,0.1145914
+94,rbf_logei,RBF + LogEI,0.001654832
+94,matern15_logei,Matérn 3/2 + LogEI,0.0001672404
+94,matern25_logei,Matérn 5/2 + LogEI,0.003786972
+94,ensemble_uniform_logei,Uniform ensemble + LogEI,0.00584164
+95,sobol,Sobol,0.09826668
+95,rbf_logei,RBF + LogEI,0.00271439
+95,matern15_logei,Matérn 3/2 + LogEI,0.0004161099
+95,matern25_logei,Matérn 5/2 + LogEI,6.170416e-06
+95,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0007008265
+96,sobol,Sobol,0.08151166
+96,rbf_logei,RBF + LogEI,0.003810851
+96,matern15_logei,Matérn 3/2 + LogEI,0.0004449399
+96,matern25_logei,Matérn 5/2 + LogEI,0.001585275
+96,ensemble_uniform_logei,Uniform ensemble + LogEI,0.001006507
+97,sobol,Sobol,0.0714937
+97,rbf_logei,RBF + LogEI,0.0005448284
+97,matern15_logei,Matérn 3/2 + LogEI,0.000439533
+97,matern25_logei,Matérn 5/2 + LogEI,0.001172417
+97,ensemble_uniform_logei,Uniform ensemble + LogEI,0.001418688
+98,sobol,Sobol,0.1581071
+98,rbf_logei,RBF + LogEI,0.004656777
+98,matern15_logei,Matérn 3/2 + LogEI,3.790726e-05
+98,matern25_logei,Matérn 5/2 + LogEI,0.0001153902
+98,ensemble_uniform_logei,Uniform ensemble + LogEI,1.254459e-05
+99,sobol,Sobol,0.04756393
+99,rbf_logei,RBF + LogEI,0.0006750162
+99,matern15_logei,Matérn 3/2 + LogEI,5.199005e-06
+99,matern25_logei,Matérn 5/2 + LogEI,0.0005847692
+99,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0004152808
+100,sobol,Sobol,0.07201909
+100,rbf_logei,RBF + LogEI,0.008399603
+100,matern15_logei,Matérn 3/2 + LogEI,0.005439667
+100,matern25_logei,Matérn 5/2 + LogEI,0.004941179
+100,ensemble_uniform_logei,Uniform ensemble + LogEI,0.004454854
+101,sobol,Sobol,0.09931987
+101,rbf_logei,RBF + LogEI,5.591939e-05
+101,matern15_logei,Matérn 3/2 + LogEI,4.092105e-05
+101,matern25_logei,Matérn 5/2 + LogEI,5.158315e-05
+101,ensemble_uniform_logei,Uniform ensemble + LogEI,4.066178e-06
+102,sobol,Sobol,0.0362813
+102,rbf_logei,RBF + LogEI,0.02041134
+102,matern15_logei,Matérn 3/2 + LogEI,0.007680006
+102,matern25_logei,Matérn 5/2 + LogEI,0.00653683
+102,ensemble_uniform_logei,Uniform ensemble + LogEI,0.01142526
+103,sobol,Sobol,0.04886068
+103,rbf_logei,RBF + LogEI,0.02819364
+103,matern15_logei,Matérn 3/2 + LogEI,0.004054344
+103,matern25_logei,Matérn 5/2 + LogEI,0.03076727
+103,ensemble_uniform_logei,Uniform ensemble + LogEI,0.01469849
+104,sobol,Sobol,0.02491993
+104,rbf_logei,RBF + LogEI,0.004024844
+104,matern15_logei,Matérn 3/2 + LogEI,0.003853411
+104,matern25_logei,Matérn 5/2 + LogEI,0.004801301
+104,ensemble_uniform_logei,Uniform ensemble + LogEI,0.004768291
+105,sobol,Sobol,0.04105008
+105,rbf_logei,RBF + LogEI,0.0003994238
+105,matern15_logei,Matérn 3/2 + LogEI,0.0008133123
+105,matern25_logei,Matérn 5/2 + LogEI,0.000818917
+105,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0002565472
+106,sobol,Sobol,0.07277425
+106,rbf_logei,RBF + LogEI,5.223342e-05
+106,matern15_logei,Matérn 3/2 + LogEI,3.8023e-05
+106,matern25_logei,Matérn 5/2 + LogEI,4.070033e-05
+106,ensemble_uniform_logei,Uniform ensemble + LogEI,3.548504e-05
+107,sobol,Sobol,0.05253856
+107,rbf_logei,RBF + LogEI,0.0004124444
+107,matern15_logei,Matérn 3/2 + LogEI,1.720033e-05
+107,matern25_logei,Matérn 5/2 + LogEI,0.0001775619
+107,ensemble_uniform_logei,Uniform ensemble + LogEI,1.939383e-05
+108,sobol,Sobol,0.08160595
+108,rbf_logei,RBF + LogEI,0.0008890016
+108,matern15_logei,Matérn 3/2 + LogEI,0.0001140838
+108,matern25_logei,Matérn 5/2 + LogEI,0.000853306
+108,ensemble_uniform_logei,Uniform ensemble + LogEI,8.154177e-05
+109,sobol,Sobol,0.08286226
+109,rbf_logei,RBF + LogEI,0.0009931924
+109,matern15_logei,Matérn 3/2 + LogEI,8.945475e-05
+109,matern25_logei,Matérn 5/2 + LogEI,9.295549e-06
+109,ensemble_uniform_logei,Uniform ensemble + LogEI,1.701456e-06
+110,sobol,Sobol,0.04707718
+110,rbf_logei,RBF + LogEI,0.001900178
+110,matern15_logei,Matérn 3/2 + LogEI,0.0007588033
+110,matern25_logei,Matérn 5/2 + LogEI,0.0006018655
+110,ensemble_uniform_logei,Uniform ensemble + LogEI,9.117187e-05
+111,sobol,Sobol,0.1196089
+111,rbf_logei,RBF + LogEI,0.0007012793
+111,matern15_logei,Matérn 3/2 + LogEI,0.0002207237
+111,matern25_logei,Matérn 5/2 + LogEI,0.0005313033
+111,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0005932789
+112,sobol,Sobol,0.08175412
+112,rbf_logei,RBF + LogEI,3.416789e-05
+112,matern15_logei,Matérn 3/2 + LogEI,0.0004407648
+112,matern25_logei,Matérn 5/2 + LogEI,0.0003536597
+112,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0007930937
+113,sobol,Sobol,0.07094323
+113,rbf_logei,RBF + LogEI,0.0100244
+113,matern15_logei,Matérn 3/2 + LogEI,0.007485822
+113,matern25_logei,Matérn 5/2 + LogEI,0.006332507
+113,ensemble_uniform_logei,Uniform ensemble + LogEI,0.006712581
+114,sobol,Sobol,0.1297276
+114,rbf_logei,RBF + LogEI,0.01945979
+114,matern15_logei,Matérn 3/2 + LogEI,0.01138065
+114,matern25_logei,Matérn 5/2 + LogEI,0.03342514
+114,ensemble_uniform_logei,Uniform ensemble + LogEI,0.01749321
+115,sobol,Sobol,0.1473655
+115,rbf_logei,RBF + LogEI,0.0003223195
+115,matern15_logei,Matérn 3/2 + LogEI,0.0002741285
+115,matern25_logei,Matérn 5/2 + LogEI,0.0003820908
+115,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0006599561
+116,sobol,Sobol,0.1270624
+116,rbf_logei,RBF + LogEI,0.002877329
+116,matern15_logei,Matérn 3/2 + LogEI,0.003856097
+116,matern25_logei,Matérn 5/2 + LogEI,0.002133421
+116,ensemble_uniform_logei,Uniform ensemble + LogEI,0.005858547
+117,sobol,Sobol,0.08384952
+117,rbf_logei,RBF + LogEI,0.0003469404
+117,matern15_logei,Matérn 3/2 + LogEI,1.821072e-05
+117,matern25_logei,Matérn 5/2 + LogEI,0.0001345241
+117,ensemble_uniform_logei,Uniform ensemble + LogEI,8.415534e-05
+118,sobol,Sobol,0.0734326
+118,rbf_logei,RBF + LogEI,0.000870619
+118,matern15_logei,Matérn 3/2 + LogEI,0.0003167615
+118,matern25_logei,Matérn 5/2 + LogEI,0.001030984
+118,ensemble_uniform_logei,Uniform ensemble + LogEI,0.000768265
+119,sobol,Sobol,0.04819312
+119,rbf_logei,RBF + LogEI,0.004533255
+119,matern15_logei,Matérn 3/2 + LogEI,0.005091422
+119,matern25_logei,Matérn 5/2 + LogEI,0.004237668
+119,ensemble_uniform_logei,Uniform ensemble + LogEI,0.004672576
+120,sobol,Sobol,0.05876283
+120,rbf_logei,RBF + LogEI,0.0008810969
+120,matern15_logei,Matérn 3/2 + LogEI,0.0003716599
+120,matern25_logei,Matérn 5/2 + LogEI,0.001209145
+120,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0006491868
+121,sobol,Sobol,0.04467462
+121,rbf_logei,RBF + LogEI,7.290307e-05
+121,matern15_logei,Matérn 3/2 + LogEI,7.061186e-05
+121,matern25_logei,Matérn 5/2 + LogEI,0.0005693939
+121,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0001490569
+122,sobol,Sobol,0.17431
+122,rbf_logei,RBF + LogEI,0.0005578967
+122,matern15_logei,Matérn 3/2 + LogEI,9.638897e-05
+122,matern25_logei,Matérn 5/2 + LogEI,0.0003755472
+122,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0002560323
+123,sobol,Sobol,0.1582328
+123,rbf_logei,RBF + LogEI,0.0001457556
+123,matern15_logei,Matérn 3/2 + LogEI,0.0002296143
+123,matern25_logei,Matérn 5/2 + LogEI,0.0002337663
+123,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0004202207
+124,sobol,Sobol,0.1533953
+124,rbf_logei,RBF + LogEI,0.0006894751
+124,matern15_logei,Matérn 3/2 + LogEI,0.0009534187
+124,matern25_logei,Matérn 5/2 + LogEI,0.0003170018
+124,ensemble_uniform_logei,Uniform ensemble + LogEI,0.002694898
+125,sobol,Sobol,0.1794101
+125,rbf_logei,RBF + LogEI,0.0005965462
+125,matern15_logei,Matérn 3/2 + LogEI,0.009180386
+125,matern25_logei,Matérn 5/2 + LogEI,0.0001201874
+125,ensemble_uniform_logei,Uniform ensemble + LogEI,6.7518e-05
+126,sobol,Sobol,0.01770686
+126,rbf_logei,RBF + LogEI,0.0009025361
+126,matern15_logei,Matérn 3/2 + LogEI,1.019616e-06
+126,matern25_logei,Matérn 5/2 + LogEI,0.0001565788
+126,ensemble_uniform_logei,Uniform ensemble + LogEI,1.56538e-05
+127,sobol,Sobol,0.01620432
+127,rbf_logei,RBF + LogEI,0.0002139325
+127,matern15_logei,Matérn 3/2 + LogEI,0.0004739092
+127,matern25_logei,Matérn 5/2 + LogEI,0.0001214442
+127,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0004528347
+128,sobol,Sobol,0.09290578
+128,rbf_logei,RBF + LogEI,0.0001087698
+128,matern15_logei,Matérn 3/2 + LogEI,0.0004048035
+128,matern25_logei,Matérn 5/2 + LogEI,0.001098713
+128,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0003414737
+129,sobol,Sobol,0.08486259
+129,rbf_logei,RBF + LogEI,0.0004712016
+129,matern15_logei,Matérn 3/2 + LogEI,0.0004036763
+129,matern25_logei,Matérn 5/2 + LogEI,0.0005605831
+129,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0003418026
+130,sobol,Sobol,0.06077971
+130,rbf_logei,RBF + LogEI,0.0009489972
+130,matern15_logei,Matérn 3/2 + LogEI,0.0002452933
+130,matern25_logei,Matérn 5/2 + LogEI,9.444119e-06
+130,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0007307429
+131,sobol,Sobol,0.115841
+131,rbf_logei,RBF + LogEI,0.003335199
+131,matern15_logei,Matérn 3/2 + LogEI,0.003102278
+131,matern25_logei,Matérn 5/2 + LogEI,0.002667761
+131,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0007610519
+132,sobol,Sobol,0.03776882
+132,rbf_logei,RBF + LogEI,0.005721573
+132,matern15_logei,Matérn 3/2 + LogEI,0.002435726
+132,matern25_logei,Matérn 5/2 + LogEI,0.002139435
+132,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0002147496
+133,sobol,Sobol,0.004233665
+133,rbf_logei,RBF + LogEI,4.688433e-05
+133,matern15_logei,Matérn 3/2 + LogEI,2.947507e-05
+133,matern25_logei,Matérn 5/2 + LogEI,2.057629e-05
+133,ensemble_uniform_logei,Uniform ensemble + LogEI,8.300395e-05
+134,sobol,Sobol,0.09015799
+134,rbf_logei,RBF + LogEI,0.002260393
+134,matern15_logei,Matérn 3/2 + LogEI,0.001187323
+134,matern25_logei,Matérn 5/2 + LogEI,0.001611787
+134,ensemble_uniform_logei,Uniform ensemble + LogEI,0.00269017
+135,sobol,Sobol,0.08951695
+135,rbf_logei,RBF + LogEI,0.002565649
+135,matern15_logei,Matérn 3/2 + LogEI,0.009337361
+135,matern25_logei,Matérn 5/2 + LogEI,9.964785e-05
+135,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0001871234
+136,sobol,Sobol,0.1136997
+136,rbf_logei,RBF + LogEI,0.01521518
+136,matern15_logei,Matérn 3/2 + LogEI,0.009005051
+136,matern25_logei,Matérn 5/2 + LogEI,0.007898736
+136,ensemble_uniform_logei,Uniform ensemble + LogEI,0.02488762
+137,sobol,Sobol,0.1261241
+137,rbf_logei,RBF + LogEI,0.001869686
+137,matern15_logei,Matérn 3/2 + LogEI,0.0008474228
+137,matern25_logei,Matérn 5/2 + LogEI,0.001767512
+137,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0007842586
+138,sobol,Sobol,0.02807609
+138,rbf_logei,RBF + LogEI,0.0006373014
+138,matern15_logei,Matérn 3/2 + LogEI,0.000359336
+138,matern25_logei,Matérn 5/2 + LogEI,0.0005576615
+138,ensemble_uniform_logei,Uniform ensemble + LogEI,0.001217318
+139,sobol,Sobol,0.09706688
+139,rbf_logei,RBF + LogEI,7.308077e-05
+139,matern15_logei,Matérn 3/2 + LogEI,1.831921e-05
+139,matern25_logei,Matérn 5/2 + LogEI,0.0002736098
+139,ensemble_uniform_logei,Uniform ensemble + LogEI,0.0002219548
